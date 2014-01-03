@@ -9,7 +9,7 @@ async.series({
   },
 },
 function(err, ${5:results}) {
-  // results is now equal to: {one: 1, two: 2}
+  // results is now equal to: {one: {}, two: {}}
   ${6}
 });
 ]]></content>
